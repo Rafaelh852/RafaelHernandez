@@ -1,10 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+//import logo from './logo.svg';
+//import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    /*<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,6 +20,8 @@ function App() {
         </a>
       </header>
     </div>
+  */
+    <div class="div">0</div>
   );
 }
 

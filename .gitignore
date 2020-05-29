@@ -5,8 +5,6 @@ build.cmd
 deploy.cmd
 start.cmd
 
-README.default.md
-
 # dependencies
 /node_modules
 /.pnp
