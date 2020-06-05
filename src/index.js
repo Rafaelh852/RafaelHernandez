@@ -1,14 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-//import App from "./components/App";//
-//import * as serviceWorker from "./serviceWorker";
-
-import Nav from "./comps/layout/Nav";
-import Header from "./comps/layout/Header";
-import Body from "./comps/layout/Body";
-import Footer from "./comps/layout/Footer";
-
+import Layout from "./comps/layout/Layout";
 
 var site = {
   abre: "RH",
@@ -16,20 +9,12 @@ var site = {
   title: "Roscuspace",
   url: "https://roscuspace.com",
   links: {
-    github: "",
-    linkedin: "",
-    twitter: "",
-    kaggle: "",
-    medium: "",
+    github: "https://github.com/roscu",
+    linkedin: "https://www.linkedin.com/in/rafael-hernandez-54a667102/",
+    twitter: "https://twitter.com/rafaelh852",
+    kaggle: "https://www.kaggle.com/roscuspace",
+    medium: null,
   },
 };
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Nav props={site} />
-    <Header props={site} />
-    <Body props={site} />
-    <Footer props={site} />
-  </React.StrictMode>,
-  document.getElementById("root")
-)
+ReactDOM.render(<Layout props={site} />, document.getElementById("root"));
