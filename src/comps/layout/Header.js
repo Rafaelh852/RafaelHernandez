@@ -1,12 +1,14 @@
 import React from "react";
 
 function Header(props) {
-  const site = props.props;
+  const site = props.props.props;
+
+
   return (
-    <header>
-      <h1>{site.name}</h1>
-      <h2> I can make that complicated for you </h2>
-      <p></p>
+    <header className = "container col-10">
+      <h2>{site.name}</h2>
+      <h3> {site.slogan} </h3>
+      <p>{site.description}</p>
     </header>
   );
 }

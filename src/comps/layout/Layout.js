@@ -7,7 +7,6 @@ import Header from "./Header";
 import Body from "./Body";
 import Footer from "./Footer";
 
-import Page from "../page/Page";
 
 
 export default class Layout extends Component {
@@ -17,7 +16,7 @@ export default class Layout extends Component {
       <React.StrictMode>
           <Router >
             <switch>
-              
+            
             </switch>
         <Nav props={site} />
         <Header props={site} />
