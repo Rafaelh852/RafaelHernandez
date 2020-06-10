@@ -1,0 +1,43 @@
+/*
+steps to compile
+first run:  cd src  
+then run: sass index.scss index.css
+*/
+
+// Custom.scss must be above bootstrap import
+// can only modify variables from node modules
+
+$dark: #0b1c33;
+$light: #f9faf8;
+$primary: #c7dcf7;
+$secondary: #f67579;
+$info: #8984b6;
+
+// Option A: Include all of Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/*/  Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Using
+// @import "../node_modules/bootstrap/scss/";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+
+*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

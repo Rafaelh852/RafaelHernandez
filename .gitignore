@@ -4,6 +4,7 @@
 build.cmd
 deploy.cmd
 start.cmd
+sass.cmd
 
 # dependencies
 /node_modules
@@ -26,3 +27,4 @@ start.cmd
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+

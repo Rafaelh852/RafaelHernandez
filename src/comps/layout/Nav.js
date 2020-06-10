@@ -19,9 +19,9 @@ function Nav(props) {
   }
 
   return (
-    <nav className="navbar navbar-expand sticky-top navbar-light bg-light">
-      <span className="navbar-brand">
-          <a href="{site.url}" >{site.title}</a>
+    <nav className="navbar navbar-expand sticky-top bg-dark border-bottom">
+      <span className="navbar-brand ">
+          <a href="{site.url}" className="text-secondary" >{site.title}</a>
         </span>
       <ul className="ml-auto navbar-nav">
         
