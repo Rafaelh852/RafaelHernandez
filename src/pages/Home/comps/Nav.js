@@ -1,11 +1,11 @@
 import React from "react";
+import Content from "../content/Home";
 
-function Nav(props) {
-  var site = props.props.props;
+function Nav() {
   var links = [];
 
   /* Loops through */
-  for (const [name, link] of Object.entries(site.links)) {
+  for (const [name, link] of Object.entries(Content.links)) {
     if (link === null) {
     } else {
       links.push(
@@ -21,13 +21,11 @@ function Nav(props) {
   return (
     <nav className="navbar navbar-expand sticky-top bg-dark border-bottom">
       <span className="navbar-brand ">
-          <a href="{site.url}" className="text-secondary" >{site.title}</a>
-        </span>
-      <ul className="ml-auto navbar-nav">
-        
-        {links}
-        </ul>
-        
+        <a href="{site.url}" className="text-secondary">
+          Rafael Hernandez
+        </a>
+      </span>
+      <ul className="ml-auto navbar-nav">{links}</ul>
     </nav>
   );
 }

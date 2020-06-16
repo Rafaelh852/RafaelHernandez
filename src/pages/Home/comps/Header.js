@@ -1,13 +1,12 @@
-import React, { Fragment } from "react";
+import React from "react";
+import Content from "../content/Home";
 
 function Header() {
   return (
-    <Fragment>
-      <header className="bg-dark">
-        <h2 className="text-primary ">{site.name}</h2>
-        <h3 className="text-secondary "> {site.slogan} </h3>
-      </header>
-    </Fragment>
+    <header className="bg-dark">
+      <h2 className="text-primary ">{Content.name}</h2>
+      <h3 className="text-secondary ">{Content.slogan}</h3>
+    </header>
   );
 }
 

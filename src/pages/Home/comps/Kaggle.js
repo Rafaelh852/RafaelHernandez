@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 var Kaggle = function () {
   return <p>kaggle</p>;
