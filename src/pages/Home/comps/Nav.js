@@ -27,6 +27,7 @@ function Nav(props) {
         
         {links}
         </ul>
+        
     </nav>
   );
 }
