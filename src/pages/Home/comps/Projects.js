@@ -1,49 +1,22 @@
 import React from "react";
+import Content from "../content/Home";
 
 var Projects = function () {
-  return (
-    <section className="container">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <h3>Project Title </h3>
-          <a href="#">
-            <img src="#" alt="gif of project 1" />
-          </a>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            necessitatibus libero magnam vitae, corporis consequuntur maxime
-            itaque amet numquam perferendis.
-          </p>
-          <p>short techk list</p>
-        </li>
-        <li>
-          <h3>Project Title</h3>
-          <a href="#">
-            <img src="#" alt="gif of project 1" />
-          </a>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            necessitatibus libero magnam vitae, corporis consequuntur maxime
-            itaque amet numquam perferendis.
-          </p>
-          <p>short techk list</p>
-        </li>
-        <li>
-          <h3>Project Title </h3>
-          <a href="#">
-            <img src="#" alt="gif of project 1" />
-          </a>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            necessitatibus libero magnam vitae, corporis consequuntur maxime
-            itaque amet numquam perferendis.
-          </p>
-          <p>short techk list</p>
-        </li>
-      </ul>
-    </section>
-  );
+  var cards = [];
+  var project = Content.Projects.project;
+  for (var i = 0; i < project.length; i++) {
+    cards.push(
+      <li>
+        <h4>{project[i].title} </h4>
+        <a href="#">
+          <img src="#" alt="gif of project 1" />
+        </a>
+        <h6>{project[i].description}</h6>
+      </li>
+    );
+  }
+
+  return <section className="container">{cards}</section>;
 };
 
 export default Projects;
