@@ -6,17 +6,17 @@ var Kaggle = function () {
   var project = Content.Kaggle.projects;
   for (var i = 0; i < project.length; i++) {
     cards.push(
-      <li>
-        <a href="#">
+      <div className="card card-body bg-light border-0 d-inline-flex col-md-4">
+        <a href="#" className="text-secondary">
           <h4>{project[i].title}</h4>
         </a>
-      </li>
+      </div>
     );
   }
   return (
-    <section>
-      <h3>Kaggle</h3>
-      <ul>{cards}</ul>
+    <section className="container-fluid p-5">
+      <h3 className="container pb-3">Kaggle</h3>
+      <div className="container">{cards}</div>
     </section>
   );
 };

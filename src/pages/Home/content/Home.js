@@ -3,6 +3,7 @@ var Content = {
   name: "Rafael Hernandez",
   title: "Rafael H.",
   url: "https://rafaelhernandez.dev/",
+  email:"Rafael.Hernandez852@gmail.com",
   slogan: "Data Scientist with a passion for teaching",
   description:
     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio quaerat perspiciatis reprehenderit neque illo aspernatur, incidunt dignissimos. Architecto, accusantium. Enim.",

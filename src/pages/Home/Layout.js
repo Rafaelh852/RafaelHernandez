@@ -28,10 +28,15 @@ export default class Layout extends Component {
         <Nav />
         <Header />
         <About />
-        <Skills />
+        <hr/>
         <Projects />
+        <hr/>
         <Kaggle />
+        <hr/>
         <Articles />
+        <hr/>
+        <Skills />
+        <hr/>
         <Footer />
       </React.StrictMode>
     );

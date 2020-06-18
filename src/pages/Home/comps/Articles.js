@@ -7,16 +7,21 @@ var Articles = function () {
 
   for (var i = 0; i < article.length; i++) {
     articles.push(
-      <li>
-        <h4>{article[i].title}</h4>
-        <h6>{article[i].description}</h6>
-      </li>
+      <div className="card card-body d-inline-flex mr-4 ml-4 col-md-3">
+        <a href="" className="text-dark">
+          <h4>{article[i].title}</h4>
+          <p>
+             <small>{article[i].description}</small>
+          </p>
+         
+        </a>
+      </div>
     );
   }
   return (
-    <section className="container">
-      <h3> Articles </h3>
-      <ul>{articles}</ul>
+    <section className="container-fluid p-5">
+      <h3 className="container pb-3"> Articles </h3>
+      <div className="container">{articles}</div>
     </section>
   );
 };

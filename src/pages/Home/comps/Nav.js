@@ -21,9 +21,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand sticky-top bg-dark border-bottom">
       <span className="navbar-brand ">
-        <a href="{site.url}" className="text-secondary">
-          Rafael Hernandez
-        </a>
+        
       </span>
       <ul className="ml-auto navbar-nav">{links}</ul>
     </nav>
