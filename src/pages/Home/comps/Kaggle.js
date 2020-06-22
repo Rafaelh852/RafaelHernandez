@@ -14,7 +14,7 @@ var Kaggle = function () {
     );
   }
   return (
-    <section className="container-fluid p-5">
+    <section id="Kaggle" className="container-fluid ">
       <h3 className="container pb-3">Kaggle</h3>
       <div className="container">{cards}</div>
     </section>

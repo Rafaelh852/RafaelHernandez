@@ -26,18 +26,18 @@ export default class Layout extends Component {
     return (
       <React.StrictMode>
         <Nav />
-        <Header />
-        <About />
-        <hr/>
-        <Projects />
-        <hr/>
-        <Kaggle />
-        <hr/>
-        <Articles />
-        <hr/>
-        <Skills />
-        <hr/>
-        <Footer />
+        
+          <Header />
+          <About />
+          <Projects />
+          <hr />
+
+          <Articles />
+
+          <Skills />
+
+          <Footer />
+        
       </React.StrictMode>
     );
   }

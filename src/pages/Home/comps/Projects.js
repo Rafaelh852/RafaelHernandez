@@ -6,20 +6,20 @@ var Projects = function () {
   var project = Content.Projects.project;
   for (var i = 0; i < project.length; i++) {
     cards.push(
-      <div className=" card card-body d-inline-flex bg-light border-0 col-md-4 ">
-        <h4 className="">{project[i].title} </h4>
+      <div className=" bg-light d-inline-block col-12 col-lg-6 col-xl-4 ">
+        <h4 className="card-title">{project[i].title} </h4>
         <a href="#">
           <img src="#" alt="gif of project 1" />
         </a>
-        <p>{project[i].description}</p>
+        <p className="card-text">{project[i].description}</p>
       </div>
     );
   }
 
   return (
-    <section className="container-fluid p-5">
-      <h3 className=" pb-3 container ">Projects</h3>
-      <div className="container">{cards}</div>
+    <section id="Projects" className="container-fluid p-5 bg-secondary bg-light">
+      <h3 className=" pb-3 container">Projects</h3>
+      <div className=" container p-0 m-auto">{cards}</div>
     </section>
   );
 };

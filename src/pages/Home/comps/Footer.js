@@ -16,9 +16,12 @@ import Content from "../content/Home";
 
 function Footer() {
   return (
-    <footer className="container-fluid p-5">
-      <h3 className="contianer pb-3">Contact</h3>
-      <form action="" className="container col-md-8">
+    <footer id="Contact" className="container-fluid p-5 text-light ">
+      <h3 className="container pb-3">Contact</h3>
+      <form
+        action=""
+        className="container m-auto col-12 col-sm-12 col-md-7 col-xl-6"
+      >
         <div className="formgroup">
           <label for="inputName">Your Name (required)</label>
           <input
