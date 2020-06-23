@@ -7845,7 +7845,7 @@ code {
   height: 560px; }
 
 .rain {
-  background-image: url("assets/rain.jpg");
+  background-image: url("./app/assets/rain.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }

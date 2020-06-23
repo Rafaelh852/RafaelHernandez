@@ -1,0 +1,16 @@
+{
+  "skill": [
+    {
+      "name": "Python",
+      "description": "Data Cleaning, data Processing, Modeling, machine leanrign"
+    },
+    { "name": "SQL", "description": "database access, CRUD process" },
+    { "name": "Tableu+", "description": "Data Viz" },
+    { "name": "Java", "description": "This is what i do with this skill" },
+    { "name": "Excel", "description": "This is what i do with this skill" },
+    {
+      "name": "Tensorflow, pandas, pytorch,pyplot, matplot",
+      "description": "This is what i do with this skill"
+    }
+  ]
+}

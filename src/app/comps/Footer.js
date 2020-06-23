@@ -1,5 +1,4 @@
 import React from "react";
-import Content from "../content/Home";
 
 /* 
 <span>Roscuspace</span>
@@ -14,7 +13,7 @@ import Content from "../content/Home";
     </ul>
 */
 
-function Footer() {
+const Footer = () => {
   return (
     <footer id="Contact" className="container-fluid p-5 text-light ">
       <h3 className="container pb-3">Contact</h3>
@@ -63,6 +62,6 @@ function Footer() {
       </form>
     </footer>
   );
-}
+};
 
 export default Footer;

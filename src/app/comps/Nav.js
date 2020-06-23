@@ -1,11 +1,11 @@
 import React from "react";
-import Content from "../content/Home";
+const { nav } = require("../content/site");
 
-function Nav() {
+const Nav = () => {
   var links = [];
 
   /* Loops through */
-  for (const [name, link] of Object.entries(Content.Nav)) {
+  for (const [name, link] of Object.entries(nav)) {
     if (link === null) {
     } else {
       links.push(
@@ -23,6 +23,6 @@ function Nav() {
       <ul className="nav navbar justify-content-end">{links}</ul>
     </nav>
   );
-}
+};
 
 export default Nav;

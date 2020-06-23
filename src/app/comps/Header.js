@@ -1,11 +1,11 @@
 import React from "react";
-import Content from "../content/Home";
+const { meta } = require("../content/site");
 /*  
 col-12 col-md-9 col-lg-9 col-xl-9 
 d-inline-block float-right
 */
 
-function Header() {
+const Header = () => {
   return (
     <header
       id="Header"
@@ -13,11 +13,11 @@ function Header() {
     >
       <div class="rain headerheaight  position-absolute container opa maw-960 "></div>
       <div className=" ">
-        <h2 className=" col ">{Content.name}</h2>
-        <h4 className="col">{Content.slogan}</h4>
+        <h2 className=" col ">{meta.name}</h2>
+        <h4 className="col">{meta.slogan}</h4>
       </div>
     </header>
   );
-}
+};
 
 export default Header;

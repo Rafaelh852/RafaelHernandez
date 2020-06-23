@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import View from "./pages/Views";
+import App from "./app/app";
 
-ReactDOM.render(<View />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
 
 /* Layout of project
   index // entry point

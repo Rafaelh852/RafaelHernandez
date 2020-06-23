@@ -1,11 +1,11 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 import Nav from "./comps/Nav";
 import Header from "./comps/Header";
 import About from "./comps/About";
 import Skills from "./comps/Skills";
 import Projects from "./comps/Projects";
-import Kaggle from "./comps/Kaggle";
 import Articles from "./comps/Articles";
 import Footer from "./comps/Footer";
 
@@ -21,23 +21,26 @@ import Footer from "./comps/Footer";
 /* note this can be replaced by medium sololy or maybe youtube */
 //contact/footer
 
-export default class Layout extends Component {
+export default class App extends Component {
+  async componentDidMount() {
+    const url = "https://medium.com/feed/@rafael.hernandez852";
+    const res = await axios.get(url);
+    console.log(res);
+  }
+
   render() {
     return (
       <React.StrictMode>
         <Nav />
-        
-          <Header />
-          <About />
-          <Projects />
-          <hr />
 
-          <Articles />
+        <Header />
+        <About />
+        <Projects />
+        <hr />
+        <Articles />
+        <Skills />
 
-          <Skills />
-
-          <Footer />
-        
+        <Footer />
       </React.StrictMode>
     );
   }

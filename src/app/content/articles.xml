@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:cc="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html">
+    <channel>
+        <title><![CDATA[Stories by Ken Jee on Medium]]></title>
+        <description><![CDATA[Stories by Ken Jee on Medium]]></description>
+        <link>https://medium.com/@kenneth.b.jee?source=rss-6ee1f7466557------2</link>
+        <image>
+            <url>https://cdn-images-1.medium.com/fit/c/150/150/1*G6GbETyWDeK4bBKWjAFf2Q.png</url>
+            <title>Stories by Ken Jee on Medium</title>
+            <link>https://medium.com/@kenneth.b.jee?source=rss-6ee1f7466557------2</link>
+        </image>
+        <generator>Medium</generator>
+        <lastBuildDate>Tue, 23 Jun 2020 06:22:52 GMT</lastBuildDate>
+        <atom:link href="https://medium.com/feed/@kenneth.b.jee" rel="self" type="application/rss+xml"/>
+        <webMaster><![CDATA[yourfriends@medium.com]]></webMaster>
+        <atom:link href="http://medium.superfeedr.com" rel="hub"/>
+        <item>
+            <title><![CDATA[Yep — that is fine!]]></title>
+            <link>https://medium.com/@kenneth.b.jee/yep-that-is-fine-391de7656d4?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/391de7656d4</guid>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2020 12:42:20 GMT</pubDate>
+            <atom:updated>2020-06-11T12:42:20.595Z</atom:updated>
+            <content:encoded><![CDATA[<p>Yep — that is fine!</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=391de7656d4" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How I Would Learn Data Science (If I Had to Start Over)]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/how-i-would-learn-data-science-if-i-had-to-start-over-f3bf0d27ca87?source=rss-6ee1f7466557------2"><img src="https://cdn-images-1.medium.com/max/2600/1*weK3w4VydWnLeQKxuqSyvQ.jpeg" width="6000"></a></p><p class="medium-feed-snippet">Lessons learned from my data science journey</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/how-i-would-learn-data-science-if-i-had-to-start-over-f3bf0d27ca87?source=rss-6ee1f7466557------2">Continue reading on Towards Data Science »</a></p></div>]]></description>
+            <link>https://towardsdatascience.com/how-i-would-learn-data-science-if-i-had-to-start-over-f3bf0d27ca87?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/f3bf0d27ca87</guid>
+            <category><![CDATA[data-science]]></category>
+            <category><![CDATA[programming]]></category>
+            <category><![CDATA[machine-learning]]></category>
+            <category><![CDATA[artificial-intelligence]]></category>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2020 02:32:31 GMT</pubDate>
+            <atom:updated>2020-06-09T02:32:31.281Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[https://github.com/PlayingNumbers/data_science_starter]]></title>
+            <link>https://medium.com/@kenneth.b.jee/https-github-com-playingnumbers-data-science-starter-5ad380ed0fbf?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/5ad380ed0fbf</guid>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Tue, 26 May 2020 03:24:45 GMT</pubDate>
+            <atom:updated>2020-05-26T03:24:45.354Z</atom:updated>
+            <content:encoded><![CDATA[<p><a href="https://github.com/PlayingNumbers/data_science_starter">https://github.com/PlayingNumbers/data_science_starter</a></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=5ad380ed0fbf" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[I Hope I crack the list next year!]]></title>
+            <link>https://medium.com/@kenneth.b.jee/i-hope-i-crack-the-list-next-year-45fc04a98878?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/45fc04a98878</guid>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Tue, 19 May 2020 15:26:30 GMT</pubDate>
+            <atom:updated>2020-05-19T15:26:30.790Z</atom:updated>
+            <content:encoded><![CDATA[<p>I Hope I crack the list next year!</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=45fc04a98878" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[9-Minutes to a Data Science Portfolio Website]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/9-minutes-to-a-data-science-portfolio-website-80b79ced6c54?source=rss-6ee1f7466557------2"><img src="https://cdn-images-1.medium.com/max/1920/1*7eox4B3NVayHqtZ1n9cI6A.gif" width="1920"></a></p><p class="medium-feed-snippet">How to build a simple and free web portfolio with GitHub pages</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/9-minutes-to-a-data-science-portfolio-website-80b79ced6c54?source=rss-6ee1f7466557------2">Continue reading on Towards Data Science »</a></p></div>]]></description>
+            <link>https://towardsdatascience.com/9-minutes-to-a-data-science-portfolio-website-80b79ced6c54?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/80b79ced6c54</guid>
+            <category><![CDATA[data-science]]></category>
+            <category><![CDATA[github]]></category>
+            <category><![CDATA[portfolio]]></category>
+            <category><![CDATA[machine-learning]]></category>
+            <category><![CDATA[github-pages]]></category>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Mon, 18 May 2020 15:19:14 GMT</pubDate>
+            <atom:updated>2020-05-18T15:19:14.826Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[Thanks for sharing!]]></title>
+            <link>https://medium.com/@kenneth.b.jee/thanks-for-sharing-669c5f170352?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/669c5f170352</guid>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Sat, 16 May 2020 18:13:32 GMT</pubDate>
+            <atom:updated>2020-05-16T18:13:32.170Z</atom:updated>
+            <content:encoded><![CDATA[<p>Thanks for sharing!</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=669c5f170352" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How to ULTRALEARN Data Science]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/how-to-ultralearn-data-science-c9cee6e2fbd0?source=rss-6ee1f7466557------2"><img src="https://cdn-images-1.medium.com/max/2600/1*7S8m0BHamhBX9yq-WakvmQ.jpeg" width="5616"></a></p><p class="medium-feed-snippet">Supercharge your data science learning journey</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/how-to-ultralearn-data-science-c9cee6e2fbd0?source=rss-6ee1f7466557------2">Continue reading on Towards Data Science »</a></p></div>]]></description>
+            <link>https://towardsdatascience.com/how-to-ultralearn-data-science-c9cee6e2fbd0?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/c9cee6e2fbd0</guid>
+            <category><![CDATA[business-intelligence]]></category>
+            <category><![CDATA[learning-to-code]]></category>
+            <category><![CDATA[technology]]></category>
+            <category><![CDATA[learning]]></category>
+            <category><![CDATA[data-science]]></category>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Tue, 07 Apr 2020 15:46:04 GMT</pubDate>
+            <atom:updated>2020-04-07T15:46:04.563Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[Thanks for reading it!]]></title>
+            <link>https://medium.com/@kenneth.b.jee/thanks-for-reading-it-32c24c35b326?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/32c24c35b326</guid>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Sun, 05 Apr 2020 18:52:59 GMT</pubDate>
+            <atom:updated>2020-04-05T18:52:59.210Z</atom:updated>
+            <content:encoded><![CDATA[<p>Thanks for reading it!</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=32c24c35b326" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Stages of Learning Data Science]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/the-stages-of-learning-data-science-3cc8be181f54?source=rss-6ee1f7466557------2"><img src="https://cdn-images-1.medium.com/max/2600/1*mbRxyaegxqgB7RBJYybJHQ.png" width="4310"></a></p><p class="medium-feed-snippet">How to get &#x201C;unstuck&#x201D; at key learning points</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/the-stages-of-learning-data-science-3cc8be181f54?source=rss-6ee1f7466557------2">Continue reading on Towards Data Science »</a></p></div>]]></description>
+            <link>https://towardsdatascience.com/the-stages-of-learning-data-science-3cc8be181f54?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/3cc8be181f54</guid>
+            <category><![CDATA[data-science]]></category>
+            <category><![CDATA[business-intelligence]]></category>
+            <category><![CDATA[machine-learning]]></category>
+            <category><![CDATA[technology]]></category>
+            <category><![CDATA[big-data]]></category>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2020 15:38:47 GMT</pubDate>
+            <atom:updated>2020-03-20T15:38:47.312Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[How to Integrate Data Science into Your Business]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/how-to-integrate-data-science-into-your-business-3cc2f5b797ee?source=rss-6ee1f7466557------2"><img src="https://cdn-images-1.medium.com/max/2600/1*hlhn1TfEpLhHmD8daa9N9w.jpeg" width="3784"></a></p><p class="medium-feed-snippet">6 steps to maximize your capabilities</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/how-to-integrate-data-science-into-your-business-3cc2f5b797ee?source=rss-6ee1f7466557------2">Continue reading on Towards Data Science »</a></p></div>]]></description>
+            <link>https://towardsdatascience.com/how-to-integrate-data-science-into-your-business-3cc2f5b797ee?source=rss-6ee1f7466557------2</link>
+            <guid isPermaLink="false">https://medium.com/p/3cc2f5b797ee</guid>
+            <category><![CDATA[business]]></category>
+            <category><![CDATA[big-data]]></category>
+            <category><![CDATA[business-strategy]]></category>
+            <category><![CDATA[data-science]]></category>
+            <category><![CDATA[machine-learning]]></category>
+            <dc:creator><![CDATA[Ken Jee]]></dc:creator>
+            <pubDate>Thu, 12 Mar 2020 14:11:37 GMT</pubDate>
+            <atom:updated>2020-03-12T14:11:37.439Z</atom:updated>
+        </item>
+    </channel>
+</rss>
