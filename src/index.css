@@ -7862,6 +7862,14 @@ code {
 .forty {
   height: 40vh; }
 
+.arrow-left {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg); }
+
 /*
 #root {
   position: relative;

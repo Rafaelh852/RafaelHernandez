@@ -15,12 +15,27 @@
     "kaggle": "https://www.kaggle.com/rafaelh852",
     "medium": null
   },
-  "nav": {
-    "Home": "index",
-    "About": "#About",
-    "Projects": "#Projects",
-    "Articles": "#Articles",
-    "Skills": "#Skills",
-    "Contact": "#Contact"
-  }
+
+  "HomeNav": [
+    {
+      "heading": "Home",
+      "link": "#"
+    },
+    {
+      "heading": "About",
+      "link": "#About"
+    },
+    {
+      "heading": "Projects",
+      "link": "#Projects"
+    },
+    {
+      "heading": "Articles",
+      "link": "#Articles"
+    },
+    {
+      "heading": "Contact",
+      "link": "#Contact"
+    }
+  ]
 }

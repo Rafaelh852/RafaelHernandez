@@ -54,11 +54,6 @@ for item in root.findall('./channel/item'):
 
 
 
-
-
-
-
-
 # writes json file
 feed = open( path +filename[:filename.find(".")]+".json", "w")
 feed.write('''{

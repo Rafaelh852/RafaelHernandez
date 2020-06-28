@@ -1,26 +1,18 @@
 import React from "react";
-const { nav } = require("../content/site");
+import { Link } from "react-router-dom";
 
-const Nav = () => {
-  var links = [];
-
-  /* Loops through */
-  for (const [name, link] of Object.entries(nav)) {
-    if (link === null) {
-    } else {
-      links.push(
-        <li className="">
-          <a href={link} className="nav-item nav-link nav-fill ">
-            {name}
-          </a>
-        </li>
-      );
-    }
-  }
-
+const Nav = ({ nav }) => {
   return (
-    <nav className=" bg-dark sticky-top ">
-      <ul className="nav navbar justify-content-end">{links}</ul>
+    <nav className=" bg-dark col-3 border-right">
+      <ul className="justify-content-end text-light ">
+        {nav.map(({ link, heading }) => (
+          <li className="">
+            <Link to={link} className="nav-item nav-link nav-fill ">
+              {heading}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 };

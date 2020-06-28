@@ -1,19 +1,20 @@
 {
-  "link": "https://github.com/rafaelh852",
-  "project": [
+  "link": "medium link",
+  "articlesNav": [],
+  "article": [
     {
-      "title": "Project 1",
-      "link": "",
+      "title": " Article on Project 1",
+      "link": "https://www.youtube.com/embed/idipMrfAZHk",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolores ducimus, facere cumque id delectus hic animi consequuntur libero blanditiis!"
     },
     {
-      "title": "Project 2",
-      "link": "",
+      "title": " Article on Project 2",
+      "link": "https://www.youtube.com/embed/h9wualcJuE4",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolores ducimus, facere cumque id delectus hic animi consequuntur libero blanditiis!"
     },
     {
-      "title": "Project 3",
-      "link": "",
+      "title": " Article on Project 3",
+      "link": "https://www.youtube.com/embed/eYDI8b5Nn5s",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolores ducimus, facere cumque id delectus hic animi consequuntur libero blanditiis!"
     }
   ]

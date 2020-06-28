@@ -1,5 +1,5 @@
 import React from "react";
-const { skill } = require("../content/skills");
+const { skill } = require("../about/skills.json");
 
 const Skills = () => {
   return (

@@ -1,47 +1,56 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React, { Fragment, useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Nav from "./comps/Nav";
-import Header from "./comps/Header";
-import About from "./comps/About";
-import Skills from "./comps/Skills";
-import Projects from "./comps/Projects";
-import Articles from "./comps/Articles";
-import Footer from "./comps/Footer";
+import Home from "./home/Home.js";
+import About from "./about/About.js";
+import Projects from "./projects/Projects.js";
+import Articles from "./articles/Articles.js";
+import Contact from "./comps/Contact.js";
 
 //functions
 //nav
 //header
 //about  ..
 //skills .. short
-//projects .. preview on hosted and branded data
+//projects .. prepageDisplay on hosted and branded data
 //kaggle .. serious competitions and performance
 //medium articles about projects and kaggle experience
 //videos on how to that are documented for yourserlf and others
 /* note this can be replaced by medium sololy or maybe youtube */
 //contact/footer
 
-export default class App extends Component {
-  async componentDidMount() {
-    const url = "https://medium.com/feed/@rafael.hernandez852";
-    const res = await axios.get(url);
-    console.log(res);
-  }
+var App = () => {
+  //default styling for pages
+  // leave spaces at the ends to allow concats
 
-  render() {
-    return (
-      <React.StrictMode>
-        <Nav />
+  const pageStyle = {
+    section: " container-fluid-max col-9 ",
+    h3: "  ",
+    p: "  ",
+    link: "  ",
+    img: "  ",
+  };
 
-        <Header />
-        <About />
-        <Projects />
-        <hr />
-        <Articles />
-        <Skills />
+  const HomePage = () => <Home style={pageStyle} />;
+  const AboutPage = () => <About style={pageStyle} />;
+  const ProjectsPage = () => <Projects style={pageStyle} />;
+  const ArticlesPage = () => <Articles style={pageStyle} />;
+  const ContactPage = () => <Contact style={pageStyle} />;
 
-        <Footer />
-      </React.StrictMode>
-    );
-  }
-}
+  return (
+    <React.StrictMode>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/index" component={HomePage} />
+          <Route exact path="/about" component={AboutPage} />
+          <Route exact path="/projects" component={ProjectsPage} />
+          <Route exact path="/articles" component={ArticlesPage} />
+          <Route exact path="/contact" component={ContactPage} />
+        </Switch>
+      </Router>
+    </React.StrictMode>
+  );
+};
+
+export default App;

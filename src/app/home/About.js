@@ -1,5 +1,5 @@
 import React from "react";
-const { meta } = require("../content/site");
+const { meta } = require("./site");
 
 const About = () => {
   return (

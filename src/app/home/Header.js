@@ -1,5 +1,5 @@
 import React from "react";
-const { meta } = require("../content/site");
+const { meta } = require("./site.json");
 /*  
 col-12 col-md-9 col-lg-9 col-xl-9 
 d-inline-block float-right
