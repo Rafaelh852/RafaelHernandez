@@ -5,7 +5,7 @@ import Home from "./home/Home.js";
 import About from "./about/About.js";
 import Projects from "./projects/Projects.js";
 import Articles from "./articles/Articles.js";
-import Contact from "./comps/Contact.js";
+import Contact from "./comps/ContactForm.js";
 
 //functions
 //nav
@@ -24,7 +24,8 @@ var App = () => {
   // leave spaces at the ends to allow concats
 
   const pageStyle = {
-    section: " container-fluid-max col-9 ",
+    wrapper: "col-7 mr-auto brprime order-3",
+    section: "container-fluid",
     h3: "  ",
     p: "  ",
     link: "  ",

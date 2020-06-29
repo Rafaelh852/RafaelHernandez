@@ -7880,5 +7880,21 @@ code {
   .maw-960 {
     width: 100%;
     min-width: 100%; } }
+ul {
+  list-style-type: none; }
+
+.brprime {
+  border-right: thin solid #21e6c1; }
+
+/*
+
+$ml: 850px;
+#nav {
+  width: $ml;
+}
+.ml250 {
+  margin-left: $ml;
+}
+*/
 
 /*# sourceMappingURL=index.css.map */

@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "../comps/Contact";
+import ContactForm from "../comps/ContactForm";
 /* 
 <span>Roscuspace</span>
     <span> Rafel Hernandez</span>
@@ -13,13 +13,13 @@ import Contact from "../comps/Contact";
     </ul>
 */
 
-const Footer = () => {
+const Contact = () => {
   return (
-    <footer id="Contact" className="container-fluid p-5 text-light ">
+    <section id="Contact" className="container-fluid p-5 text-light ">
       <h3 className="container pb-3">Contact</h3>
-      <Contact />
-    </footer>
+      <ContactForm />
+    </section>
   );
 };
 
-export default Footer;
+export default Contact;

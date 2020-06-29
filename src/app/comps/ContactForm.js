@@ -1,10 +1,10 @@
 import React from "react";
 
-function Contact() {
+function ContactForm() {
   return (
     <form
       action=""
-      className="container m-auto col-12 col-sm-12 col-md-7 col-xl-6"
+      className="container col-12 col-sm-12 col-md-7 col-xl-6"
     >
       <div className="formgroup">
         <label for="inputName">Your Name (required)</label>
@@ -48,4 +48,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactForm;

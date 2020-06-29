@@ -3,8 +3,11 @@ const { meta } = require("./site");
 
 const About = () => {
   return (
-    <section id="About" className="container-fluid  p-5 bg-dark text-light">
-      <h3 className=" pb-3 container ">About</h3>
+    <section
+      id="About"
+      className="container-fluid  p-5 text-light"
+    >
+      <h3 className=" pb-3 container">About</h3>
 
       <div className="container ">
         <h4 className="">{meta.name}</h4>

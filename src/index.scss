@@ -98,3 +98,30 @@ code {
     min-width: 100%;
   }
 }
+ul {
+  list-style-type: none;
+}
+
+#nav {
+  //border-right: thin solid $primary;
+}
+
+.brprime {
+  border-right: thin solid $primary;
+}
+
+section {
+  * {
+  //  @extend .ml-0;
+  }
+}
+/*
+
+$ml: 850px;
+#nav {
+  width: $ml;
+}
+.ml250 {
+  margin-left: $ml;
+}
+*/
