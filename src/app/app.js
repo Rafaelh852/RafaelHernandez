@@ -24,7 +24,6 @@ var App = () => {
   // leave spaces at the ends to allow concats
 
   const pageStyle = {
-    wrapper: "col-7 mr-auto brprime order-3",
     section: "container-fluid",
     h3: "  ",
     p: "  ",

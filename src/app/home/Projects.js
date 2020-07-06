@@ -6,7 +6,7 @@ const Projects = function () {
   return (
     <section
       id="Projects"
-      className="container-fluid p-5 text-light"
+      className="container-fluid p-5 bg-light"
     >
       <h3 className=" pb-3 container">Projects</h3>
       <div className=" container p-0">

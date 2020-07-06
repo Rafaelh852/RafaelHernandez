@@ -92,8 +92,8 @@ code {
 }
 */
 
-@media screen and (max-width: 960px) {
-  .maw-960 {
+@media screen and (max-width: 1024px) {
+  .maw {
     width: 100%;
     min-width: 100%;
   }
@@ -102,20 +102,23 @@ ul {
   list-style-type: none;
 }
 
-#nav {
-  //border-right: thin solid $primary;
-}
+
 
 .brprime {
   border-right: thin solid $primary;
 }
+.brb {
+  border-bottom: thin solid $primary;
+}
 
+
+/*
 section {
   * {
-  //  @extend .ml-0;
+    @extend .ml-0;
   }
 }
-/*
+
 
 $ml: 850px;
 #nav {

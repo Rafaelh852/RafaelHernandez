@@ -13,22 +13,20 @@ import Contact from "./Contact";
 
 const { HomeNav } = require("./site.json");
 
-const Home = ({ style }) => {
+const Home = () => {
   return (
     <Fragment>
       <Nav nav={HomeNav} />
+      
+      <Header />
+      <About />
 
-      <div className={style.wrapper}>
-        <Header />
-        <About />
-        <Projects />
-        <Articles />
-        <Skills />
-        <Contact />
-      </div>
-      <Footer />
+      <Projects />
+      <Articles />
+      <Skills />
+      <Contact />
     </Fragment>
   );
 };
-
+//<Footer />
 export default Home;

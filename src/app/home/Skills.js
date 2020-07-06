@@ -3,7 +3,7 @@ const { skill } = require("../about/skills.json");
 
 const Skills = () => {
   return (
-    <section id="Skills" className="container-fluid p-5 text-light">
+    <section id="Skills" className="container-fluid p-5 bg-light">
       <h3 className=" pb-3 container ">Skills</h3>
       <div className="container p-0 ">
         {skill.map((skill) => (

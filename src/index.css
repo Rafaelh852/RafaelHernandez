@@ -7876,8 +7876,8 @@ code {
   //top: -1em;
 }
 */
-@media screen and (max-width: 960px) {
-  .maw-960 {
+@media screen and (max-width: 1024px) {
+  .maw {
     width: 100%;
     min-width: 100%; } }
 ul {
@@ -7886,7 +7886,16 @@ ul {
 .brprime {
   border-right: thin solid #21e6c1; }
 
+.brb {
+  border-bottom: thin solid #21e6c1; }
+
 /*
+section {
+  * {
+    @extend .ml-0;
+  }
+}
+
 
 $ml: 850px;
 #nav {
