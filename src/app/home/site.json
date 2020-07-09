@@ -16,26 +16,19 @@
     "medium": null
   },
 
-  "HomeNav": [
-    {
-      "heading": "Home",
-      "link": "#"
+  "HomeNav": {
+    "About": "#About",
+    "Projects": {
+      "Project1": "#proj1",
+      "Project2": "#proj2",
+      "Project3": "#proj3"
     },
-    {
-      "heading": "About",
-      "link": "#About"
+    "Articles": {
+      "Art1": "#Art1",
+      "Art2": "#Art2",
+      "Art3": "#Art3"
     },
-    {
-      "heading": "Projects",
-      "link": "#Projects"
-    },
-    {
-      "heading": "Articles",
-      "link": "#Articles"
-    },
-    {
-      "heading": "Contact",
-      "link": "#Contact"
-    }
-  ]
+    "Skills": "#Skills",
+    "Contact": "#Contact"
+  }
 }
