@@ -31,11 +31,11 @@ var App = () => {
     img: "  ",
   };
 
-  const HomePage = () => <Home style={pageStyle} />;
-  const AboutPage = () => <About style={pageStyle} />;
-  const ProjectsPage = () => <Projects style={pageStyle} />;
-  const ArticlesPage = () => <Articles style={pageStyle} />;
-  const ContactPage = () => <Contact style={pageStyle} />;
+  const HomePage = () => <Home />;
+  const AboutPage = () => <About />;
+  const ProjectsPage = () => <Projects />;
+  const ArticlesPage = () => <Articles />;
+  const ContactPage = () => <Contact />;
 
   return (
     <React.StrictMode>

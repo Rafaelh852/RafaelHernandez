@@ -11,7 +11,7 @@ const About = () => {
 
       <div className="container ">
         <h4 className="">{meta.name}</h4>
-        <div className="">
+        <div className="overflow-auto">
           <span className="pr-2 font-weight-bold">Contact:</span>
           <a href="">
             <strong>{meta.email}</strong>

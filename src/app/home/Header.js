@@ -9,10 +9,10 @@ const Header = () => {
   return (
     <header
       id="Header"
-      className=" text-white row container-fluid  align-items-center p-0 m-0 headerheight brb "
+      className=" text-white row container-fluid  align-items-center p-0 m-0 headerheight"
     >
-      <div class="rain position-absolute container maw "></div>
-      <div className="container  p-0 ">
+     
+      <div className="container ">
         <h2 className=" col ">{meta.name}</h2>
         <h4 className="col">{meta.slogan}</h4>
       </div>

@@ -4,17 +4,17 @@
   "article": [
     {
       "title": " Article on Project 1",
-      "link": "https://www.youtube.com/embed/idipMrfAZHk",
+      "link": "#",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolores ducimus, facere cumque id delectus hic animi consequuntur libero blanditiis!"
     },
     {
       "title": " Article on Project 2",
-      "link": "https://www.youtube.com/embed/h9wualcJuE4",
+      "link": "#",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolores ducimus, facere cumque id delectus hic animi consequuntur libero blanditiis!"
     },
     {
       "title": " Article on Project 3",
-      "link": "https://www.youtube.com/embed/eYDI8b5Nn5s",
+      "link": "#",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolores ducimus, facere cumque id delectus hic animi consequuntur libero blanditiis!"
     }
   ]
