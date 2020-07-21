@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <Fragment>
       <Nav navs={[HomeNav, mediaNav]} navNames = {["Media",""]} />
-      <div id = "content" className="container-fluid p-0">
+      <div id = "content" className="container-fluid p-0 bg-dark text-primary ">
         <Header />
         <About />
         <Projects />

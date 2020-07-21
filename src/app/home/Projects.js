@@ -6,10 +6,10 @@ const Projects = function () {
   return (
     <section
       id="Projects"
-      className="container-fluid p-5 bg-light"
+      className="container-fluid p-5 bg-light textgradlight "
     >
-      <h3 className=" pb-3 container">Projects</h3>
-      <div className=" container p-0">
+      <h3 className=" pb-3 container ">Projects</h3>
+      <div className=" container p-0 ">
         {project.map((project) => (
           <div className="  d-inline-block col-12 col-lg-6 col-xl-4  pb-3">
             <h4 className="card-title">{project.title} </h4>

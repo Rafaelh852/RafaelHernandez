@@ -5,12 +5,12 @@ const About = () => {
   return (
     <section
       id="About"
-      className="container-fluid  p-5 text-light"
+      className="container-fluid  p-5  align-content-end  "
     >
-      <h3 className=" pb-3 container">About</h3>
+      <h5 className=" pb-3 container">About</h5>
 
       <div className="container ">
-        <h4 className="">{meta.name}</h4>
+        <h3 className="">{meta.name}</h3>
         <div className="overflow-auto">
           <span className="pr-2 font-weight-bold">Contact:</span>
           <a href="">

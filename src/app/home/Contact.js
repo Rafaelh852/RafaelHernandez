@@ -15,7 +15,7 @@ import ContactForm from "../comps/ContactForm";
 
 const Contact = () => {
   return (
-    <section id="Contact" className="container-fluid p-5 text-light ">
+    <section id="Contact" className="container-fluid p-5 text-primary ">
       <h3 className="container pb-3">Contact</h3>
       <ContactForm />
     </section>

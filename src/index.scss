@@ -8,21 +8,66 @@ then run: sass index.scss index.css
 // can only modify variables from node modules
 
 /*
+$dark: 
+$light: 
+$primary: 
+$secondary: 
+*/
+/*
 $dark: #141414;
-$light: #ededed;
+
 $primary: #141414;
-$secondary: #ededed;*/
+$secondary: #ededed;
+*/
+
+//$primary: #21e6c1;
+$light: #ededed;
 $dark: #071e3d;
-$primary: #21e6c1;
+$primary: #62c3db;
 $secondary: #278ea5;
 $info: #1f4287;
+
+$gradcol1: $secondary;
+$gradcol2: $info;
 /*
+
+*/
+
+/*
+#62C3DB
 $dark: #0b1c33;
 $light: #f9faf8;
 $primary: #c7dcf7;
 $secondary: #f67579;
 $info: #8984b6;
 */
+
+//.bg- {background-image: }
+
+@mixin textgrad($color1, $color2) {
+  background: linear-gradient(to right, $color1, $color2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@mixin bggrad($color1, $color2) {
+  background-image: linear-gradient(to right, $color1, $color2);
+}
+
+.thistextgradlight {
+  @include textgrad($gradcol1, $gradcol2);
+}
+
+.textgradlight {
+  
+  * {
+    @include textgrad($gradcol1, $gradcol2);
+  }
+  
+}
+.bggrad {
+  @include bggrad($gradcol1, $gradcol1);
+}
+
 // Option A: Include all of Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -59,7 +104,7 @@ code {
   height: 560px;
 }
 .rain {
-  background-image: url("./app/assets/bg.jpg");
+  background-image: url("./app/assets/rain.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,7 +195,7 @@ section {
   display: flex;
 }
 .hover:hover {
-  background-color: $info;
+  @include bggrad($secondary, $info);
 }
 
 @media (max-width: 767px) {
@@ -161,7 +206,7 @@ section {
   #nav {
     position: fixed;
     display: flex;
-    
+
     z-index: 10;
 
     div {
@@ -171,7 +216,6 @@ section {
       justify-content: center;
 
       .dc {
-        
         width: 100%;
         order: 5;
       }
@@ -204,3 +248,11 @@ section {
     }
   }
 }
+/*
+#content {
+  *{
+    margin-left: 0;
+  }
+}
+
+*/

@@ -5,7 +5,7 @@ const Nav = ({ navs, navNames }) => {
   //const linkstyle = "nav-item nav-link py-3 px-2 ";
   const linkstyle = "nav-item nav-link text-center hover ";
   const vanish = "vanish";
-  const bgc = "bg-info";
+  const bgc = "bggrad";
 
   var [toggle, setToggle] = useState(false);
 
@@ -36,7 +36,7 @@ const Nav = ({ navs, navNames }) => {
   };
 
   return (
-    <nav id="nav" className="bg-dark  container-fluid p-0 sticky-top py-2">
+    <nav id="nav" className="bg-dark  container-fluid p-0 sticky-top py-2 ">
       <div className=" container-fluid p-0 ">
         <a href="/." className={linkstyle}>
           Home
