@@ -13,8 +13,10 @@ const Header = () => {
     >
      
       <div className="container  ">
+        
         <h2 className=" col ">{meta.name}</h2>
         <h4 className="col ">{meta.slogan}</h4>
+      
       </div>
     </header>
   );

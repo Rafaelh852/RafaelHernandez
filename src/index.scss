@@ -198,6 +198,7 @@ section {
   @include bggrad($secondary, $info);
 }
 
+
 @media (max-width: 767px) {
   .break {
     flex-basis: 100%;
@@ -209,7 +210,7 @@ section {
 
     z-index: 10;
 
-    div {
+    .navcontainer {
       display: flex;
       flex-flow: row wrap;
       height: fit-content;
@@ -219,8 +220,10 @@ section {
         width: 100%;
         order: 5;
       }
+     
     }
   }
+
   #content {
   }
 }
@@ -233,8 +236,8 @@ section {
   }
   #nav {
     @extend .ww250;
-
-    div {
+    
+    .navcontainer {
       @extend .ww250;
       height: 100vh;
       display: flex;
@@ -245,6 +248,9 @@ section {
       a {
         width: 100%;
       }
+    }
+    .cc {
+      width: 100%;
     }
   }
 }

@@ -2,10 +2,7 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <form
-      action=""
-      className="container col-12 col-sm-12 col-md-7 col-xl-6"
-    >
+    <form action="" className="container col-12 col-sm-12 col-md-7 col-xl-6">
       <div className="formgroup">
         <label for="inputName">Your Name (required)</label>
         <input

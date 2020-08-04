@@ -7963,29 +7963,31 @@ section {
     position: fixed;
     display: flex;
     z-index: 10; }
-    #nav div {
+    #nav .navcontainer {
       display: flex;
       flex-flow: row wrap;
       height: fit-content;
       justify-content: center; }
-      #nav div .dc {
+      #nav .navcontainer .dc {
         width: 100%;
         order: 5; } }
 @media (min-width: 768px) {
-  .ww250, #nav, #nav div {
+  .ww250, #nav, #nav .navcontainer {
     width: 250px;
     max-width: 250px;
     min-width: 250px; }
 
-  #nav div {
+  #nav .navcontainer {
     height: 100vh;
     display: flex;
     flex-direction: column;
     position: fixed;
     justify-content: center;
     align-items: center; }
-    #nav div a {
-      width: 100%; } }
+    #nav .navcontainer a {
+      width: 100%; }
+  #nav .cc {
+    width: 100%; } }
 /*
 #content {
   *{

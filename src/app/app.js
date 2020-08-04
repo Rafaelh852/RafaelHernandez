@@ -1,11 +1,11 @@
 import React, { Fragment, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from "./home/Home.js";
-import About from "./about/About.js";
-import Projects from "./projects/Projects.js";
-import Articles from "./articles/Articles.js";
-import Contact from "./comps/ContactForm.js";
+import HomePage from "./home/Home.js";
+import AboutPage from "./about/About.js";
+import ProjectsPage from "./projects/Projects.js";
+import ArticlesPage from "./articles/Articles.js";
+import ContactPage from "./comps/ContactForm.js";
 
 //functions
 //nav
@@ -22,20 +22,6 @@ import Contact from "./comps/ContactForm.js";
 var App = () => {
   //default styling for pages
   // leave spaces at the ends to allow concats
-
-  const pageStyle = {
-    section: "container-fluid",
-    h3: "  ",
-    p: "  ",
-    link: "  ",
-    img: "  ",
-  };
-
-  const HomePage = () => <Home />;
-  const AboutPage = () => <About />;
-  const ProjectsPage = () => <Projects />;
-  const ArticlesPage = () => <Articles />;
-  const ContactPage = () => <Contact />;
 
   return (
     <React.StrictMode>

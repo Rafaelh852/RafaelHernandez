@@ -19,7 +19,7 @@ const { HomeNav, mediaNav } = require("./site.json");
 const Home = () => {
   return (
     <Fragment>
-      <Nav navs={[HomeNav, mediaNav]} navNames = {["Media",""]} />
+      <Nav navs={[HomeNav, mediaNav]} />
       <div id = "content" className="container-fluid p-0 bg-dark text-primary ">
         <Header />
         <About />
