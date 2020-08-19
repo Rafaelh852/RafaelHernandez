@@ -7868,6 +7868,58 @@ code {
 .headerheight {
   height: 560px; }
 
+.mh200 {
+  min-height: 200px;
+  height: 200px; }
+
+.bg1 {
+  background-image: url("./app/assets/leaves.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.headshot {
+  background-image: url("./app/assets/linkedin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.rain1 {
+  background-image: url("./app/assets/rain.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.rain2 {
+  background-image: url("./app/assets/rain.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.sunset {
+  background-image: url("./app/assets/Aerial.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.sunset1 {
+  background-image: url("./app/assets/susnset1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.sunset2 {
+  background-image: url("./app/assets/sunset2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.city1 {
+  background-image: url("./app/assets/city1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .rain {
   background-image: url("./app/assets/rain.png");
   background-position: center;
@@ -7886,6 +7938,11 @@ code {
 .forty {
   height: 40vh; }
 
+.spacebtwn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
 .arrow-left {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -7893,6 +7950,15 @@ code {
   padding: 3px;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg); }
+
+.ram {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+
+.sidebar {
+  display: grid;
+  grid-template-columns: 150px 1fr; }
 
 /*
 #root {

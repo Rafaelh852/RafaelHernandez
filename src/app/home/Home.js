@@ -14,13 +14,13 @@ import Projects from "./Projects";
 import Articles from "./Articles";
 import Contact from "./Contact";
 
-const { HomeNav, mediaNav } = require("./site.json");
+const { HomeNav } = require("./site.json");
 
 const Home = () => {
   return (
     <Fragment>
-      <Nav navs={[HomeNav, mediaNav]} />
-      <div id = "content" className="container-fluid p-0 bg-dark text-primary ">
+      <Nav navs={[HomeNav]} />
+      <div id="content" className="container-fluid p-0 bg-dark text-primary ">
         <Header />
         <About />
         <Projects />

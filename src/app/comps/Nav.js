@@ -99,12 +99,16 @@ const toggler = (child, parent) => {
             );
           }
         })}
-        <Link
-          href="#"
-          id=""
-          className={linkstyle + " dropdown-toggle nav-link"}
-          onClick={CycleNav}
-        ></Link>{" "}
+        {navs.length > 1 ? (
+          <Link
+            href="#"
+            id=""
+            className={linkstyle + " dropdown-toggle nav-link"}
+            onClick={CycleNav}
+          ></Link>
+        ) : (
+          ""
+        )}
       </div>
     </Nav>
   );

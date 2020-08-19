@@ -12,7 +12,7 @@ const Header = () => {
       className=" row container-fluid  align-items-center p-0 m-0 headerheight bg-light textgradlight "
     >
      
-      <div className="container  ">
+      <div className="container">
         
         <h2 className=" col ">{meta.name}</h2>
         <h4 className="col ">{meta.slogan}</h4>

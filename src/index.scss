@@ -58,11 +58,9 @@ $info: #8984b6;
 }
 
 .textgradlight {
-  
   * {
     @include textgrad($gradcol1, $gradcol2);
   }
-  
 }
 .bggrad {
   @include bggrad($gradcol1, $gradcol1);
@@ -103,6 +101,48 @@ code {
 .headerheight {
   height: 560px;
 }
+
+// pictures for container
+@mixin bgpic($pic) {
+  background-image: url($pic);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+$picpath: "./app/assets/";
+
+.mh200 {
+  min-height: 200px;
+  height: 200px;
+}
+//*********
+.bg1 {
+  @include bgpic($picpath + "leaves.jpg");
+}
+.headshot {
+  @include bgpic($picpath + "linkedin.png");
+}
+.rain1 {
+  @include bgpic($picpath + "rain.png");
+}
+.rain2 {
+  @include bgpic($picpath + "rain.jpg");
+}
+
+.sunset {
+  @include bgpic($picpath + "Aerial.jpg");
+}
+.sunset1 {
+  @include bgpic($picpath + "susnset1.jpg");
+}
+
+.sunset2 {
+  @include bgpic($picpath + "sunset2.jpg");
+}
+.city1 {
+  @include bgpic($picpath + "city1.jpg");
+}
 .rain {
   background-image: url("./app/assets/rain.png");
   background-position: center;
@@ -121,6 +161,11 @@ code {
 .forty {
   height: 40vh;
 }
+.spacebtwn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .arrow-left {
   border: solid black;
@@ -130,6 +175,18 @@ code {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+
+.ram {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
 /*
 #root {
   position: relative;
@@ -198,7 +255,6 @@ section {
   @include bggrad($secondary, $info);
 }
 
-
 @media (max-width: 767px) {
   .break {
     flex-basis: 100%;
@@ -220,7 +276,6 @@ section {
         width: 100%;
         order: 5;
       }
-     
     }
   }
 
@@ -236,7 +291,7 @@ section {
   }
   #nav {
     @extend .ww250;
-    
+
     .navcontainer {
       @extend .ww250;
       height: 100vh;

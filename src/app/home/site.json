@@ -5,30 +5,20 @@
     "title": "Rafael H.",
     "url": "https://rafaelhernandez.dev/",
     "email": "Rafael.Hernandez852@gmail.com",
-    "slogan": "Data Scientist with a passion for teaching",
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio quaerat perspiciatis reprehenderit neque illo aspernatur, incidunt dignissimos. Architecto, accusantium. Enim."
-  },
-  "mediaNav": {
-    "github": "https://github.com/rafaelh852",
-    "linkedin": "https://www.linkedin.com/in/rafael-hernandez-54a667102/",
-    "twitter": "https://twitter.com/rafaelh852"
-    
-    
+    "slogan": "Passionate Data Scientist and Teacher",
+    "description": "Hello, I'm a Data Scientist who specializes"
   },
 
   "HomeNav": {
     "About": "#About",
-    "Projects": {
-      "Project1": "#proj1",
-      "Project2": "#proj2",
-      "Project3": "#proj3"
-    },
-    "Articles": {
-      "Art1": "#Art1",
-      "Art2": "#Art2",
-      "Art3": "#Art3"
-    },
+    "Projects":"#Projects",
+    "Articles": "#Articles",
     "Skills": "#Skills",
-    "Contact": "#Contact"
+    "Contact": "#Contact",
+    "Media": {
+      "Linkedin": "https://www.linkedin.com/in/rafael-hernandez-54a667102/",
+      "Twitter": "https://twitter.com/rafaelh852",
+      "Github": "https://github.com/rafaelh852"
+    }
   }
 }
