@@ -13,6 +13,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Articles from "./Articles";
 import Contact from "./Contact";
+import Challenges from "./Challenges";
 
 const { HomeNav } = require("./site.json");
 
@@ -20,12 +21,14 @@ const Home = () => {
   return (
     <Fragment>
       <Nav navs={[HomeNav]} />
-      <div id="content" className="container-fluid p-0 bg-dark text-primary ">
+      <div
+        id="content"
+        className="container-fluid p-0 bg-dark text-primary "
+      >
         <Header />
         <About />
         <Projects />
-        <Articles />
-        <Skills />
+       <Challenges />
         <Contact />
       </div>
     </Fragment>

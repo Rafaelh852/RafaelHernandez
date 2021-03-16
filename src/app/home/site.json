@@ -5,20 +5,15 @@
     "title": "Rafael H.",
     "url": "https://rafaelhernandez.dev/",
     "email": "Rafael.Hernandez852@gmail.com",
-    "slogan": "Passionate Data Scientist and Teacher",
-    "description": "Hello, I'm a Data Scientist who specializes"
+    "slogan": "Engineering Software with Machine Learning",
+    "description": "Hello, I'm a Software Engineer with an interest in Machine Learning and Artificial Intelligence. I have a Bachelors degree in Applied Mathematics and am currently attending a Masters program in Applied Mathematics. I'm here to solve business-oriented problems through the power of Machine Learning."
   },
 
   "HomeNav": {
     "About": "#About",
     "Projects":"#Projects",
-    "Articles": "#Articles",
-    "Skills": "#Skills",
     "Contact": "#Contact",
-    "Media": {
-      "Linkedin": "https://www.linkedin.com/in/rafael-hernandez-54a667102/",
-      "Twitter": "https://twitter.com/rafaelh852",
-      "Github": "https://github.com/rafaelh852"
-    }
+    "Github": "https://github.com/rafaelh852",
+    "Resume":""
   }
 }
