@@ -9,15 +9,15 @@ const Header = () => {
   return (
     <header
       id="Header"
-      className=" row container-fluid  align-items-center p-0 m-0 headerheight bg-dark rain1 "
+      className="container-fluid  p-0 m-0 headerheight bg-dark  "
     >
-     
-      <div className="container text-light">
-        
-        <h2 className=" col ">{meta.name}</h2>
-        <h4 className="col ">{meta.slogan}</h4>
       
-      </div>
+         <div className= "container text-light z1 d-flex flex-column justify-content-center headerheight bgimg">
+          <h2 className="z2">{meta.name}</h2>
+          <h4 className="z2">{meta.slogan}</h4>
+        </div>
+        
+      
     </header>
   );
 };

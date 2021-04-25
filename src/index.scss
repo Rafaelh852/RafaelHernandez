@@ -2,6 +2,9 @@
 steps to compile
 first run:  cd src  
 then run: sass index.scss index.css
+
+or run on the command line
+sass --watch src:src
 */
 
 // Custom.scss must be above bootstrap import
@@ -211,6 +214,28 @@ $picpath: "./app/assets/";
 .opa {
   opacity: 0.4;
 }
+
+.bgimg::before {
+  @extend .container;
+  @extend .headerheight;
+  position: absolute;
+  transform: translate(-15px);
+  @include bgpic($picpath + "rain.jpg");
+  background-size: cover;
+  content: "  ";
+  opacity: 0.4;
+}
+
+.z1 {
+  z-index: 10;
+}
+.z2 {
+  z-index: 20;
+}
+.z3 {
+  z-index: 30;
+}
+
 .quart {
   height: 25vh;
 }
@@ -224,6 +249,10 @@ $picpath: "./app/assets/";
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.clamp {
+  width: clamp(200px 1024px 560px);
 }
 
 .arrow-left {
@@ -253,12 +282,6 @@ $picpath: "./app/assets/";
 }
 */
 
-@media screen and (max-width: 1024px) {
-  .maw {
-    width: 100%;
-    min-width: 100%;
-  }
-}
 ul {
   list-style-type: none;
 }
@@ -303,7 +326,6 @@ section {
 }
 
 */
-
 .vanish {
   display: none;
 }
@@ -312,6 +334,13 @@ section {
 }
 .hover:hover {
   @include bggrad($secondary, $info);
+}
+
+@media screen and (max-width: 1024px) {
+  .maw {
+    width: 100%;
+    min-width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -323,7 +352,7 @@ section {
     position: fixed;
     display: flex;
 
-    z-index: 10;
+    z-index: 50;
 
     .navcontainer {
       display: flex;
@@ -337,8 +366,9 @@ section {
       }
     }
   }
-
-  #content {
+  .bgimg::before {
+    min-width: 100%;
+    left: 0%;
   }
 }
 //md size
@@ -368,6 +398,7 @@ section {
     }
   }
 }
+
 /*
 #content {
   *{

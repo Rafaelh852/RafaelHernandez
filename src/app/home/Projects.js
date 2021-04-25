@@ -6,7 +6,7 @@ const Projects = function () {
   return (
     <section
       id="Projects"
-      className="container-fluid py-5 bg-light textgradlight "
+      className="container-fluid py-5 bg-light textgradlight"
     >
       <h3 className=" pb-3 container ">Projects</h3>
       <div className=" container p-0 ">

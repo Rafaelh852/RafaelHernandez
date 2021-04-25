@@ -23,7 +23,7 @@ const Home = () => {
       <Nav navs={[HomeNav]} />
       <div
         id="content"
-        className="container-fluid p-0 bg-dark text-primary "
+        className="d-lfex col p-0 bg-dark text-primary"
       >
         <Header />
         <About />
